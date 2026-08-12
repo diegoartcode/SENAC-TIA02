@@ -183,3 +183,42 @@ CONSTRAINT chk_cupons_percentual CHECK (
 )
 );
 
+CREATE TABLE pedidos(
+	pedido_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    cliente_id INT UNSIGNED NOT NULL,
+    endereco_entrega_id INT UNSIGNED NOT NULL,
+    status VARCHAR(30) NOT NULL DEFAULT 'PENDENTE_PAGAMENTO' 
+		CHECK (status IN (
+			'PENDENTE_PAGAMENTO',
+            'PAGAMENTO_APROVADO',
+            'EM_SEPARACAO',
+            'ENVIADO',
+            'ENTREGUE',
+            'CANCELADO'
+        )),
+	subtotal DECIMAL(12,2) UNSIGNED NOT NULL DEFAULT 0,
+    valor_desconto DECIMAL(12,2) UNSIGNED NOT NULL DEFAULT 0,
+	valor_frete DECIMAL(10,2) UNSIGNED NOT NULL DEFAULT 0,
+    valor_total DECIMAL(12,2) UNSIGNED NOT NULL DEFAULT 0,   
+    criado_em DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    atualizado_em DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP 
+		ON UPDATE CURRENT_TIMESTAMP,
+	
+    CONSTRAINT fk_pedidos_cliente FOREIGN KEY (cliente_id)
+		REFERENCES clientes (cliente_id)
+        ON UPDATE CASCADE ON DELETE RESTRICT,
+        
+	CONSTRAINT fk_pedidos_endereco FOREIGN KEY (endereco_entrega_id)
+		REFERENCES enderecos(endereco_id)
+		ON UPDATE CASCADE ON DELETE RESTRICT,
+        
+	INDEX idx_pedidos_cliente_data (cliente_id,criado_em),
+    INDEX idx_pedidos_status_data (status, criado_em)	
+);
+
+
+
+
+
+
+

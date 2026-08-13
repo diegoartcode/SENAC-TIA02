@@ -1,0 +1,15 @@
+categoria_id,nome,slug,categoria_pai_id,ativo
+1,Informática,informatica,,1
+2,Computadores,computadores,1,1
+3,Periféricos,perifericos,1,1
+4,Games,games,,1
+5,Consoles,consoles,4,1
+6,Acessórios Gamer,acessorios-gamer,4,1
+7,Casa Inteligente,casa-inteligente,,1
+8,Iluminação,iluminacao,7,1
+9,Segurança,seguranca,7,1
+10,Áudio e Vídeo,audio-e-video,,1
+11,Áudio,audio,10,1
+12,Vídeo,video,10,1
+13,Telefonia,telefonia,,1
+14,Acessórios para Celular,acessorios-para-celular,13,1

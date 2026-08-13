@@ -1,0 +1,63 @@
+endereco_id,cliente_id,tipo,logradouro,numero,complemento,bairro,cidade,uf,cep,principal
+1,1,ENTREGA,Avenida Pompéia,1035,,Lapa,Campinas,SP,05002765,1
+2,1,COBRANCA,Rua Tito,595,Apto 131,Santana,Guarulhos,SP,07381800,0
+3,2,ENTREGA,Rua Jaraguá,889,,Vila Madalena,Campinas,SP,05353466,1
+4,2,COBRANCA,Rua Jaraguá,1615,,Lapa,São Paulo,SP,08829637,0
+5,3,ENTREGA,Rua Jaraguá,1217,,Lapa,Campinas,SP,07074363,1
+6,3,COBRANCA,Avenida Pompéia,378,,Barra Funda,Osasco,SP,05524949,0
+7,4,ENTREGA,Rua das Flores,501,Apto 42,Vila Madalena,Osasco,SP,06838541,1
+8,4,COBRANCA,Avenida Paulista,1758,,Barra Funda,Osasco,SP,02634829,0
+9,5,ENTREGA,Rua Clélia,235,,Pinheiros,Campinas,SP,01284671,1
+10,5,COBRANCA,Rua Aurora,215,,Tatuapé,Guarulhos,SP,05121935,0
+11,6,ENTREGA,Rua Harmonia,124,Apto 78,Pinheiros,Guarulhos,SP,02723406,1
+12,6,COBRANCA,Rua Clélia,1115,,Água Branca,Osasco,SP,02840285,0
+13,7,ENTREGA,Avenida Central,1739,Apto 131,Vila Madalena,São Paulo,SP,08829255,1
+14,7,COBRANCA,Rua Harmonia,1825,,Vila Madalena,Guarulhos,SP,04523536,0
+15,8,ENTREGA,Rua Jaraguá,312,,Tatuapé,São Paulo,SP,08670392,1
+16,8,COBRANCA,Rua dos Pinheiros,1894,,Perdizes,Guarulhos,SP,06719182,0
+17,9,ENTREGA,Rua das Acácias,1536,Apto 60,Pinheiros,Osasco,SP,01413621,1
+18,9,COBRANCA,Avenida Paulista,1785,,Lapa,Guarulhos,SP,02309642,0
+19,10,ENTREGA,Rua Harmonia,547,Apto 141,Santana,São Paulo,SP,07638745,1
+20,10,COBRANCA,Avenida Paulista,408,Apto 36,Santana,Campinas,SP,08057866,0
+21,11,ENTREGA,Rua Jaraguá,1627,,Pinheiros,Osasco,SP,06652445,1
+22,11,COBRANCA,Rua Clélia,1033,Apto 17,Água Branca,São Paulo,SP,02214417,0
+23,12,ENTREGA,Rua das Acácias,503,,Pinheiros,Osasco,SP,05286652,1
+24,12,COBRANCA,Rua dos Pinheiros,1568,,Santana,Osasco,SP,05397841,0
+25,13,ENTREGA,Rua Tito,1625,,Vila Madalena,São Paulo,SP,07474102,1
+26,14,ENTREGA,Rua das Flores,943,,Barra Funda,Osasco,SP,03055090,1
+27,15,ENTREGA,Avenida Pompéia,2036,Apto 93,Santana,Campinas,SP,08657892,1
+28,16,ENTREGA,Avenida Paulista,1624,,Santana,Osasco,SP,06301218,1
+29,17,ENTREGA,Rua Jaraguá,1601,,Perdizes,Osasco,SP,08136413,1
+30,18,ENTREGA,Rua Jaraguá,408,,Jaraguá,Campinas,SP,04332297,1
+31,19,ENTREGA,Avenida Brasil,143,,Mooca,São Paulo,SP,01476116,1
+32,20,ENTREGA,Rua Harmonia,663,,Vila Madalena,São Paulo,SP,03052281,1
+33,21,ENTREGA,Rua Jaraguá,1479,Apto 90,Água Branca,Campinas,SP,06042585,1
+34,22,ENTREGA,Avenida Brasil,1585,,Pinheiros,São Paulo,SP,02679066,1
+35,23,ENTREGA,Rua Harmonia,1531,Apto 88,Água Branca,São Paulo,SP,08251386,1
+36,24,ENTREGA,Rua das Flores,1498,Apto 143,Barra Funda,Guarulhos,SP,09431917,1
+37,25,ENTREGA,Avenida Central,2115,,Barra Funda,São Paulo,SP,08066480,1
+38,26,ENTREGA,Avenida Central,1050,Apto 36,Santana,São Paulo,SP,03659865,1
+39,27,ENTREGA,Rua Harmonia,1115,,Jaraguá,São Paulo,SP,03660885,1
+40,28,ENTREGA,Rua Clélia,1942,Apto 149,Tatuapé,Campinas,SP,05558100,1
+41,29,ENTREGA,Rua Clélia,1154,Apto 101,Pinheiros,Osasco,SP,03494162,1
+42,30,ENTREGA,Rua das Acácias,1014,,Água Branca,Osasco,SP,02717955,1
+43,31,ENTREGA,Avenida Paulista,828,Apto 130,Perdizes,São Paulo,SP,01009111,1
+44,32,ENTREGA,Rua Aurora,95,,Água Branca,Campinas,SP,07979782,1
+45,33,ENTREGA,Avenida Central,1429,,Barra Funda,Campinas,SP,05086823,1
+46,34,ENTREGA,Rua Harmonia,626,Apto 62,Pinheiros,Guarulhos,SP,01034699,1
+47,35,ENTREGA,Rua Harmonia,279,,Água Branca,São Paulo,SP,08167193,1
+48,36,ENTREGA,Rua das Flores,1769,Apto 146,Água Branca,São Paulo,SP,07960283,1
+49,37,ENTREGA,Rua Harmonia,2189,Apto 15,Perdizes,Osasco,SP,07786632,1
+50,38,ENTREGA,Rua Clélia,1494,,Mooca,Guarulhos,SP,03292887,1
+51,39,ENTREGA,Rua das Acácias,1698,Apto 57,Jaraguá,Osasco,SP,09661530,1
+52,40,ENTREGA,Avenida Paulista,295,,Tatuapé,Guarulhos,SP,03718425,1
+53,41,ENTREGA,Avenida Central,1103,,Barra Funda,Campinas,SP,09692632,1
+54,42,ENTREGA,Rua Harmonia,1094,Apto 43,Água Branca,Campinas,SP,09396418,1
+55,43,ENTREGA,Rua das Acácias,1434,Apto 17,Barra Funda,Campinas,SP,08392408,1
+56,44,ENTREGA,Rua Harmonia,1027,,Santana,Osasco,SP,07823989,1
+57,45,ENTREGA,Avenida Paulista,1716,,Santana,Guarulhos,SP,01205865,1
+58,46,ENTREGA,Rua das Flores,231,,Tatuapé,Osasco,SP,02790074,1
+59,47,ENTREGA,Avenida Brasil,1697,,Jaraguá,Guarulhos,SP,01506253,1
+60,48,ENTREGA,Avenida Central,2037,,Santana,São Paulo,SP,08511099,1
+61,49,ENTREGA,Rua das Acácias,1943,Apto 32,Barra Funda,Osasco,SP,07260703,1
+62,50,ENTREGA,Rua Tito,1346,,Jaraguá,São Paulo,SP,03313553,1

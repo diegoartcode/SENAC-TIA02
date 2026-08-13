@@ -1,0 +1,11 @@
+fornecedor_id,razao_social,nome_fantasia,cnpj,email,telefone,prazo_medio_dias,ativo
+1,Alpha Distribuidora LTDA,Alpha Distribuidora,01193847000117,contato@alpha-distribuidora.example,11900007919,10,1
+2,Brasil Tech Supply LTDA,Brasil Tech Supply,02387694000134,contato@brasil-tech-supply.example,11900015838,10,1
+3,Conecta Atacado LTDA,Conecta Atacado,03581541000151,contato@conecta-atacado.example,11900023757,10,1
+4,Digital Prime Comércio LTDA,Digital Prime Comércio,04775388000168,contato@digital-prime-comercio.example,11900031676,5,1
+5,EletroHub Distribuição LTDA,EletroHub Distribuição,05969235000185,contato@eletrohub-distribuicao.example,11900039595,7,1
+6,Futura Imports LTDA,Futura Imports,06163082000102,contato@futura-imports.example,11900047514,5,1
+7,Giga Componentes LTDA,Giga Componentes,07356929000119,contato@giga-componentes.example,11900055433,5,1
+8,Home Smart Atacado LTDA,Home Smart Atacado,08550776000136,contato@home-smart-atacado.example,11900063352,5,1
+9,Interlink Suprimentos LTDA,Interlink Suprimentos,09744623000153,contato@interlink-suprimentos.example,11900071271,5,1
+10,Jota Eletrônicos LTDA,Jota Eletrônicos,10938470000170,contato@jota-eletronicos.example,11900079190,7,1

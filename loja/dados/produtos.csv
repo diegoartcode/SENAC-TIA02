@@ -1,0 +1,61 @@
+produto_id,sku,nome,slug,categoria_id,marca_id,fornecedor_id,preco_custo,preco_venda,peso_kg,garantia_meses,ativo,criado_em
+1,TN-02-0001,Notebook Pulse 14,notebook-pulse-14-1,2,1,8,2064.23,2899.90,1.20,12,1,2024-08-06 00:00:00
+2,TN-02-0002,Notebook Vector 15,notebook-vector-15-2,2,3,5,2319.47,3799.90,2.80,12,1,2024-08-11 00:00:00
+3,TN-02-0003,Mini PC Nano X,mini-pc-nano-x-3,2,11,2,1289.09,2199.90,2.44,3,1,2024-08-16 00:00:00
+4,TN-02-0004,Desktop Creator Pro,desktop-creator-pro-4,2,8,9,3891.59,5499.90,0.89,24,1,2024-08-21 00:00:00
+5,TN-02-0005,Chromebook Study 11,chromebook-study-11-5,2,2,6,976.51,1799.90,4.35,12,1,2024-08-26 00:00:00
+6,TN-02-0006,Notebook Gamer Forge 16,notebook-gamer-forge-16-6,2,7,3,4863.12,6799.90,4.49,12,1,2024-08-31 00:00:00
+7,TN-02-0007,All-in-One View 24,all-in-one-view-24-7,2,12,10,2729.07,4299.90,2.17,24,1,2024-09-05 00:00:00
+8,TN-02-0008,Mini PC Office S,mini-pc-office-s-8,2,6,7,1508.46,1999.90,4.94,24,1,2024-09-10 00:00:00
+9,TN-03-0009,Mouse Óptico Flow,mouse-optico-flow-9,3,6,4,47.27,69.90,8.21,24,1,2024-09-15 00:00:00
+10,TN-03-0010,Mouse Sem Fio Orbit,mouse-sem-fio-orbit-10,3,12,1,94.76,129.90,1.06,12,1,2024-09-20 00:00:00
+11,TN-03-0011,Teclado Mecânico Spark,teclado-mecanico-spark-11,3,7,8,193.00,349.90,5.52,3,1,2024-09-25 00:00:00
+12,TN-03-0012,Teclado Compacto Air,teclado-compacto-air-12,3,1,5,139.06,189.90,1.48,12,1,2024-09-30 00:00:00
+13,TN-03-0013,Monitor IPS 24 Vision,monitor-ips-24-vision-13,3,8,2,669.98,899.90,6.70,12,1,2024-10-05 00:00:00
+14,TN-03-0014,Monitor Ultrawide 29,monitor-ultrawide-29-14,3,3,9,1092.82,1599.90,4.66,12,1,2024-10-10 00:00:00
+15,TN-03-0015,Webcam Full HD Meet,webcam-full-hd-meet-15,3,2,6,135.54,249.90,6.12,12,1,2024-10-15 00:00:00
+16,TN-03-0016,Hub USB-C 8 em 1,hub-usb-c-8-em-1-16,3,11,3,201.83,299.90,7.91,12,1,2024-10-20 00:00:00
+17,TN-03-0017,SSD NVMe 1 TB,ssd-nvme-1-tb-17,3,9,10,288.04,429.90,4.54,24,1,2024-10-25 00:00:00
+18,TN-03-0018,SSD SATA 480 GB,ssd-sata-480-gb-18,3,3,7,155.29,249.90,7.82,12,1,2024-10-30 00:00:00
+19,TN-03-0019,Memória DDR4 16 GB,memoria-ddr4-16-gb-19,3,3,4,161.19,289.90,5.46,24,1,2024-11-04 00:00:00
+20,TN-03-0020,Cadeira Ergonômica Work,cadeira-ergonomica-work-20,3,6,1,823.09,1199.90,0.22,12,1,2024-11-09 00:00:00
+21,TN-05-0021,Console NovaBox S,console-novabox-s-21,5,11,8,2262.35,2999.90,1.03,24,1,2024-11-14 00:00:00
+22,TN-05-0022,Console NovaBox X,console-novabox-x-22,5,11,5,2878.08,4499.90,4.41,6,1,2024-11-19 00:00:00
+23,TN-05-0023,Console Pocket Go,console-pocket-go-23,5,12,2,1137.80,1699.90,4.10,24,1,2024-11-24 00:00:00
+24,TN-05-0024,Console Retro Mini,console-retro-mini-24,5,7,9,328.74,499.90,4.17,24,0,2024-11-29 00:00:00
+25,TN-06-0025,Controle Wireless Edge,controle-wireless-edge-25,6,7,6,244.28,399.90,3.06,6,1,2024-12-04 00:00:00
+26,TN-06-0026,Headset Gamer Rift,headset-gamer-rift-26,6,7,3,254.74,459.90,7.22,12,1,2024-12-09 00:00:00
+27,TN-06-0027,Mousepad RGB Arena,mousepad-rgb-arena-27,6,10,10,86.55,149.90,5.27,12,1,2024-12-14 00:00:00
+28,TN-06-0028,Volante Racer V2,volante-racer-v2-28,6,8,7,874.16,1399.90,2.46,12,1,2024-12-19 00:00:00
+29,TN-06-0029,Suporte Dual Controle,suporte-dual-controle-29,6,4,4,54.92,99.90,4.07,12,1,2024-12-24 00:00:00
+30,TN-06-0030,Kit Teclado e Mouse Gamer,kit-teclado-e-mouse-gamer-30,6,7,1,209.40,329.90,4.76,12,1,2024-12-29 00:00:00
+31,TN-08-0031,Lâmpada Smart Color E27,lampada-smart-color-e27-31,8,10,8,48.91,79.90,6.46,12,1,2025-01-03 00:00:00
+32,TN-08-0032,Fita LED Smart 5 m,fita-led-smart-5-m-32,8,10,5,118.53,159.90,5.88,6,1,2025-01-08 00:00:00
+33,TN-08-0033,Interruptor Smart Wi-Fi,interruptor-smart-wi-fi-33,8,4,2,90.43,119.90,6.20,24,1,2025-01-13 00:00:00
+34,TN-08-0034,Painel LED Hexa Kit,painel-led-hexa-kit-34,8,6,9,360.44,499.90,2.51,12,1,2025-01-18 00:00:00
+35,TN-08-0035,Luminária Desk Smart,luminaria-desk-smart-35,8,10,6,169.51,299.90,1.74,6,1,2025-01-23 00:00:00
+36,TN-09-0036,Sensor de Presença Smart,sensor-de-presenca-smart-36,9,4,3,104.87,139.90,4.27,6,1,2025-01-28 00:00:00
+37,TN-09-0037,Câmera Wi-Fi Indoor,camera-wi-fi-indoor-37,9,4,10,151.97,229.90,2.13,3,1,2025-02-02 00:00:00
+38,TN-09-0038,Câmera Wi-Fi Outdoor,camera-wi-fi-outdoor-38,9,4,7,193.03,349.90,7.97,24,1,2025-02-07 00:00:00
+39,TN-09-0039,Fechadura Digital Touch,fechadura-digital-touch-39,9,8,4,475.36,799.90,1.89,12,1,2025-02-12 00:00:00
+40,TN-09-0040,Campainha Vídeo Smart,campainha-video-smart-40,9,11,1,358.56,599.90,6.89,12,1,2025-02-17 00:00:00
+41,TN-09-0041,Sirene Inteligente,sirene-inteligente-41,9,4,8,125.51,189.90,4.06,12,0,2025-02-22 00:00:00
+42,TN-09-0042,Kit Segurança Residencial,kit-seguranca-residencial-42,9,4,5,804.50,1299.90,1.17,12,1,2025-02-27 00:00:00
+43,TN-11-0043,Caixa de Som Mini Beat,caixa-de-som-mini-beat-43,11,5,2,110.53,179.90,3.45,3,1,2025-03-04 00:00:00
+44,TN-11-0044,Caixa de Som Party 100,caixa-de-som-party-100-44,11,5,9,555.89,999.90,0.60,3,1,2025-03-09 00:00:00
+45,TN-11-0045,Fone Bluetooth Air One,fone-bluetooth-air-one-45,11,5,6,192.99,299.90,5.39,12,1,2025-03-14 00:00:00
+46,TN-11-0046,Fone Over-Ear Studio,fone-over-ear-studio-46,11,5,3,371.65,549.90,5.85,12,1,2025-03-19 00:00:00
+47,TN-11-0047,Soundbar Cinema 2.1,soundbar-cinema-2-1-47,11,5,10,534.29,899.90,2.13,12,1,2025-03-24 00:00:00
+48,TN-11-0048,Microfone USB Creator,microfone-usb-creator-48,11,5,7,268.65,429.90,4.75,3,1,2025-03-29 00:00:00
+49,TN-12-0049,Projetor Mini Beam,projetor-mini-beam-49,12,12,4,768.41,1099.90,2.12,24,1,2025-04-03 00:00:00
+50,TN-12-0050,Projetor Full HD Vision,projetor-full-hd-vision-50,12,8,1,1979.88,2899.90,7.21,12,1,2025-04-08 00:00:00
+51,TN-12-0051,TV Box Stream 4K,tv-box-stream-4k-51,12,11,8,223.56,349.90,0.36,6,1,2025-04-13 00:00:00
+52,TN-12-0052,Monitor Portátil 15,monitor-portatil-15-52,12,8,5,745.08,999.90,4.81,3,1,2025-04-18 00:00:00
+53,TN-13-0053,Smartphone Nexa One 128,smartphone-nexa-one-128-53,13,11,2,889.20,1599.90,6.58,12,1,2025-04-23 00:00:00
+54,TN-13-0054,Smartphone Nexa Pro 256,smartphone-nexa-pro-256-54,13,11,9,2080.56,2799.90,7.38,12,1,2025-04-28 00:00:00
+55,TN-13-0055,Smartphone Orbit Lite,smartphone-orbit-lite-55,13,12,6,725.57,1199.90,1.29,12,1,2025-05-03 00:00:00
+56,TN-14-0056,Carregador USB-C 45 W,carregador-usb-c-45-w-56,14,9,3,106.45,159.90,4.19,3,1,2025-05-08 00:00:00
+57,TN-14-0057,Power Bank 20000 mAh,power-bank-20000-mah-57,14,9,10,126.75,229.90,0.19,24,1,2025-05-13 00:00:00
+58,TN-14-0058,Cabo USB-C Reforçado,cabo-usb-c-reforcado-58,14,6,7,33.72,59.90,7.93,6,1,2025-05-18 00:00:00
+59,TN-14-0059,Suporte Veicular Magnético,suporte-veicular-magnetico-59,14,6,4,60.75,89.90,0.48,3,1,2025-05-23 00:00:00
+60,TN-14-0060,Película Premium Universal,pelicula-premium-universal-60,14,1,1,23.98,39.90,5.54,24,1,2025-05-28 00:00:00

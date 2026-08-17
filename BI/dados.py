@@ -67,3 +67,12 @@ for produto in produtos:
 
 print('Produto com maior faturamento: ', produto_maior_faturamento)
 print('Faturamento: R$ ', maior_faturamento)
+
+# BI - BUSINESS INTELLIGENCE
+
+# DADOS > INFORMAÇÃO > ANALISE > DECISÃO
+
+# PYTHON
+# POWER BI
+# TABLEAU 
+# QLIK

@@ -48,3 +48,37 @@ if idade >= 18:
         print("Você não pode dirigir!")
 else:
     print('Voce é menor de idade!')
+
+
+
+
+idade = 18
+tem_cnh = True
+
+if idade >= 18 and tem_cnh == True:
+    print("Você pode dirigir!") 
+else:
+    print("Você não pode dirigir!") 
+
+
+tem_cnh = False
+tem_permicao = True
+
+if tem_cnh == True or tem_permicao == True:
+    print('Você pode dirigir!')
+else:
+    print("Você não pode dirigir!") 
+
+
+tenho_sede = False
+tenho_fome = False
+
+if tenho_sede == True and tenho_fome == True:
+    print('Fazer um sanduiche e tomar um suco')
+elif not(tenho_sede) == True and tenho_fome == True:
+    print('Fazer um sanduiche')
+elif tenho_sede == True and not(tenho_fome) == True:
+    print('Tomar um suco')
+else:
+    print('Ficar de boas')
+

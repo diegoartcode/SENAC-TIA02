@@ -73,18 +73,48 @@ print(f'produto mais vendido: {produto_mais_vendido}')
 print(f'Quantidade: {maior_quantidade}')
 
 
-
-
-
-
-
-
-
-
-
-
 # Qual produto gerou mais dinheiro?
+
+maior_faturamento = 0
+# produto_maior_faturamento = ""
+
+for venda in vendas:
+    faturamento = (
+        venda['quantidade'] * venda['preco']
+    ) 
+
+    if faturamento > maior_faturamento:
+        maior_faturamento = faturamento
+        produto_maior_faturamento = venda['produto']               
+
+print(f'Produto com maior faturamento: {produto_maior_faturamento}')
+
+# Media de faturamento
+quantidade_produtos = len(vendas)
+print(quantidade_produtos)
+
+
+media_faturamento = faturamento_total / quantidade_produtos
+
+print(f'Média de faturamento: R$ {media_faturamento:.2f}')
 
 # Qual produto ficaram acima da média?
 
+for venda in vendas:
+    faturamento = venda['quantidade'] * venda['preco']
+
+    if faturamento > media_faturamento:
+        print(f'{venda['produto']}')
+
 # Calcule o faturamento somente da categoria "Periferico"
+print('------------------------')
+faturamento_periferico = 0
+
+for venda in vendas:
+    if venda['categoria'] == 'Periférico':
+        faturamento = venda['quantidade'] * venda['preco']
+
+        faturamento_periferico = faturamento_periferico + faturamento
+        # faturamento_periferico += faturamento
+
+print(f'Faturamento de Periféricos: R$ {faturamento_periferico:.2f}')

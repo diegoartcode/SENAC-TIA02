@@ -72,6 +72,48 @@ for produto in produtos:
     print(f'Produto: {produto['nome']}  - Diferença: {diferenca} ')
 
 # 7 conte quantos produtos foram retornados
+cursor.execute(
+    'SELECT status FROM pedidos;'
+)
+
+pedidos = cursor.fetchall()
+print(pedidos)
+quantidade = 0
+for pedido in pedidos:
+    if pedido['status'] == 'CANCELADO':
+        quantidade = quantidade + 1        
+print(f'Quantidade: {quantidade}')
+print('----------------------------')
+cursor.execute(
+    '''select count(*) as quantidade_cancelada
+        from pedidos
+        where status = "CANCELADO"'''
+)
+quantidade = cursor.fetchone()
+print(quantidade)
+
 # 8 busque os registros da tabela itens_pedido
+cursor.execute('SELECT * FROM itens_pedido')
+itens = cursor.fetchall()
+for item in itens:
+    print(item)
+
+
 # 9 some todas as quatidade de vendas
+total_quantidade = 0
+
+for item in itens:
+    total_quantidade = total_quantidade + item['quantidade']
+print(f'Quantidade total: {total_quantidade}')
+
+   
 # 10 some todos os subtotais dos produtos
+
+total_subtotal = 0
+
+for item in itens:
+    total_subtotal = total_subtotal + item['subtotal']
+print(f'Total de subtotal {total_subtotal}')
+
+cursor.close()
+conexao.close()

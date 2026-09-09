@@ -24,7 +24,6 @@ cursor.execute(
 )
 
 produtos = cursor.fetchall()
-
 print(produtos)
 
 for produto in produtos:
@@ -42,7 +41,6 @@ produtos = cursor.fetchall()
 
 for produto in produtos:
     diferenca = produto['preco_venda'] - produto['preco_custo']
-    
     print(f'Produto: {produto['nome']}')
 
     print(f'Preço de custo R$ {produto['preco_custo']}')
@@ -69,7 +67,7 @@ print(f'Preço R$ {maior_preco}')
 # Quantidade total de unidades vendidas
 
 cursor.execute(
-    "SELECT status, valor FROM pagamentos;"
+    "SELECT status, valor  FROM pagamentos;"
 )
 pagamentos = cursor.fetchall()
 
@@ -95,3 +93,4 @@ print(f'Quantidade total: {quantidade_total}')
 
 cursor.close()
 conexao.close()
+

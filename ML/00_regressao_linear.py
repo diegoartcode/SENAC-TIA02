@@ -5,6 +5,9 @@ import pandas as pd
 # pip install scikit-learn
 from sklearn.linear_model import LinearRegression
 
+# pip install matplotlib
+import matplotlib.pyplot as plt
+
 dados = {
     "mes": [1,2,3,4,5],
     "faturamento": [50000,53000,56000,59000,62000]
@@ -52,11 +55,60 @@ previsao = modelo.predict(novo_mes)[0]
 
 print(f'Previsão: R$ {previsao:.2f}')
 
-import matplotlib.pyplot as plt
+
 
 plt.scatter(df['mes'],df['faturamento'])
+# cria um grafico de dispersão (pontos) com meses no eixo x e o fatumento
+# no eixo y, usando dados originais do (df)
+
 plt.xlabel('Mês')
+# define o rotulo do eixo x como Mês
 
 plt.ylabel('Faturamento')
+# define o rotulo do eixo y como Faturamento
+
 plt.title('Loja Tech')
+# define o titulo do grafico
+
 plt.show()
+# Exibe o grafico na tela (abre uma janela ou renderiza no notebook)
+
+
+
+previsao_historica = modelo.predict(x)
+# usa o modelo para prever o faturamento dos Mesmos meses que já exitem 
+# isso serve para desenhar a linha do modelo sobre os dados reais e comparar visualmente o ajuste
+print('---------------------')
+print(previsao_historica)
+
+plt.scatter(
+    df['mes'],
+    df['faturamento'],
+    label='Valores reais'
+)
+# novo grafico de dispersão com os pontos reais, agora com um rotulo 
+# valores reais que vai aparecer na legenda
+
+plt.plot(
+    df['mes'],
+    previsao_historica,
+    label='Linha do modelo'
+)
+# desenha uma linha conectando os valores PREVISTOS pelo modelo para os meses 1 a 5 - essa é a reta de regressão aprendida
+
+plt.ylabel('Mês')
+# rotulo do eixo x
+
+plt.xlabel('Faturamento')
+# rotulo do eixo y
+
+plt.title('Regressão linear')
+# titulo do segundo grafico
+
+plt.legend()
+# mostra a legenda no gráfico, usando os textos 
+# definidos em label='....' scatter e plot
+
+
+plt.show()
+# exibe o segundo grafico: pontos reais + reta do modelo

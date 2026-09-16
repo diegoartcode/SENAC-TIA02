@@ -33,7 +33,7 @@ modelo.fit(x,y)
 
 print('Modelo treinado!')
 
-novo_mes = pd.DataFrame({"mes":[6]})
+novo_mes = pd.DataFrame({"mes":[7]})
 # criea um novo DataFrame com um unico valor mes 6, que ainda não esta nos dados originais. e é para esse mes que vamos prever o faturamento
 
 print('----novo mes-----')

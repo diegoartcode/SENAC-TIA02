@@ -21,9 +21,9 @@ import matplotlib.pyplot as plt
 def conectar_banco():
     try:
         conexao = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='',
+            host='mysql-loja-tech-diego.mysql.database.azure.com',
+            user='diegorodriguesdev',
+            password='66613F@mili@13666',
             database='lojatech'
         )
 

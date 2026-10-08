@@ -193,82 +193,143 @@ else:
 
     modelo.fit(X,y)
 
-    # informar o mes que queremos prever
+   # ------------------------------------------------------------
+# criar os meses que queremos prever
+# ------------------------------------------------------------
 
-    julho = pd.DataFrame(
-        {
-            "Numero_mes" : [7]
-        }
+meses_futuros = pd.DataFrame(
+    {
+        "Numero_mes": [7, 8, 9, 10, 11, 12]
+    }
+)
+
+
+# ------------------------------------------------------------
+# realizar as previsões
+# ------------------------------------------------------------
+
+previsoes = modelo.predict(
+    meses_futuros
+)
+
+
+# adicionar as previsões ao dataframe
+meses_futuros["Previsao"] = previsoes
+
+
+# impedir valores negativos
+# meses_futuros["Previsao"] = (
+#     meses_futuros["Previsao"]
+#     .clip(lower=0)
+# )
+
+
+# ------------------------------------------------------------
+# nomes dos meses
+# ------------------------------------------------------------
+
+nomes_meses = {
+    7: "Julho",
+    8: "Agosto",
+    9: "Setembro",
+    10: "Outubro",
+    11: "Novembro",
+    12: "Dezembro"
+}
+
+
+# ------------------------------------------------------------
+# criar visual
+# ------------------------------------------------------------
+
+plt.figure(
+    figsize=(10, 6)
+)
+
+
+# ------------------------------------------------------------
+# título
+# ------------------------------------------------------------
+
+plt.text(
+    0.5,
+    0.92,
+    "PREVISÃO DE RECEITA",
+    ha="center",
+    va="center",
+    fontsize=18,
+    fontweight="bold",
+    transform=plt.gca().transAxes
+)
+
+
+# ------------------------------------------------------------
+# mostrar cada previsão
+# ------------------------------------------------------------
+
+posicao_y = 0.78
+
+
+for _, linha in meses_futuros.iterrows():
+
+    mes = int(
+        linha["Numero_mes"]
     )
 
-    # realizar a previsão
-
-    previsao_julho = modelo.predict(
-        julho
-    )[0]
+    valor = linha["Previsao"]
 
 
-    # formatar como moeda brasileira
-    # 1,111,291,460.67
-    
-    # 1.111.291.460,67
-
+    # formatar valor
     valor_formatado = (
-        f"{previsao_julho:,.2f}" # 291,460.67
-        .replace(',','X')  
-        .replace('.',',')
-        .replace('X','.')
+        f"{valor:,.2f}"
+        .replace(",", "X")
+        .replace(".", ",")
+        .replace("X", ".")
     )
 
-    # criar o visual com aparencia de cartao
 
-    plt.figure(
-        figsize=(7,3)
+    texto = (
+        f"{nomes_meses[mes]}: "
+        f"R$ {valor_formatado}"
     )
 
-    #  titulo principal
+
     plt.text(
         0.5,
-        0.75,
-        "PREVISÃO DE RECEITA",
+        posicao_y,
+        texto,
         ha="center",
         va="center",
         fontsize=16,
-        fontweight="bold"
-    )
-
-    # subtitulo
-    plt.text(
-        0.5,
-        0.60,
-        "Julho de 2026",
-        ha="center",
-        va="center",
-        fontsize=12
-    )
-
-    # valor previsto
-    plt.text(
-        0.5,
-        0.38,
-        f"R$ {valor_formatado}",
-        ha="center",
-        va="center",
-        fontsize=60,
         fontweight="bold",
-        fontstyle="italic"
-    )
-    # informação do modelo utilizado
-    plt.text(
-        0.5,
-        0.15,
-        "Modelo: Regressão Linear",
-        ha="center",
-        va="center",
-        fontsize=13
+        transform=plt.gca().transAxes
     )
 
-    # remover os eixos do grafico
-    plt.axis("off")
 
-    plt.show()
+    # desce a posição do próximo mês
+    posicao_y -= 0.11
+
+
+# ------------------------------------------------------------
+# informação sobre o modelo
+# ------------------------------------------------------------
+
+plt.text(
+    0.5,
+    0.05,
+    "Modelo: Regressão Linear",
+    ha="center",
+    va="center",
+    fontsize=11,
+    transform=plt.gca().transAxes
+)
+
+
+# remover eixos
+plt.axis("off")
+
+
+plt.tight_layout()
+
+
+plt.show()

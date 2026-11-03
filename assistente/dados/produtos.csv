@@ -1,0 +1,21 @@
+id_produto,nome,categoria,preco,estoque,descricao
+1,Mouse Óptico Flow,Periféricos,69.9,40,mouse óptico sem fio ergonômico para escritório
+2,Teclado Mecânico Spark,Periféricos,349.9,25,teclado mecânico gamer rgb switch azul
+3,Monitor IPS 24 Vision,Monitores,899.9,12,monitor ips 24 polegadas full hd para escritório e jogos
+4,SSD NVMe 1 TB,Armazenamento,429.9,30,ssd nvme 1tb alta velocidade para upgrade do computador
+5,Mouse Gamer Strike,Periféricos,189.9,35,mouse gamer rgb 16000 dpi com botões programáveis
+6,Headset Gamer Echo,Áudio,299.9,18,headset gamer som surround com microfone
+7,Webcam Full HD Meet,Acessórios,249.9,22,webcam full hd com microfone para reuniões e home office
+8,Headset Office Talk,Áudio,159.9,28,headset com microfone para home office e reuniões
+9,Memória RAM 16 GB,Componentes,279.9,20,memória ram ddr4 16gb para upgrade de desempenho
+10,HD Externo 2 TB,Armazenamento,389.9,15,hd externo 2tb portátil para backup usb
+11,Cadeira Gamer Pro,Móveis,1199.9,6,cadeira gamer ergonômica reclinável
+12,Suporte Articulado Monitor,Acessórios,159.9,14,suporte articulado para monitor ergonomia no escritório
+13,Mousepad Gamer XL,Periféricos,79.9,50,mousepad gamer grande com borda rgb
+14,Pen Drive 64 GB,Armazenamento,39.9,80,pen drive 64gb usb portátil
+15,Notebook Pro 14,Computadores,3499.9,8,notebook 14 polegadas 16gb ssd para trabalho e estudo
+16,Hub USB-C 7 em 1,Acessórios,199.9,0,hub usb-c com hdmi para notebook e home office
+17,Controle Gamer Sem Fio,Periféricos,229.9,20,controle gamer sem fio para pc e console
+18,Microfone USB Podcast,Áudio,349.9,10,microfone usb para reuniões lives e podcast
+19,SSD Externo 500 GB,Armazenamento,459.9,12,ssd externo 500gb portátil usb-c alta velocidade para backup
+20,Luminária LED de Mesa,Acessórios,129.9,25,luminária led de mesa para escritório e home office

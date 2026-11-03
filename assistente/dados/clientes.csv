@@ -1,0 +1,13 @@
+id_cliente,nome,email,telefone,cidade,data_cadastro,aceita_personalizacao
+C01,Ana Souza,ana@exemplo.test,(11) 90000-0001,São Paulo,2025-03-10,sim
+C02,Bruno Lima,bruno@exemplo.test,(21) 90000-0002,Rio de Janeiro,2025-06-22,sim
+C03,Carla Mendes,carla@exemplo.test,(31) 90000-0003,Belo Horizonte,2024-11-05,sim
+C04,Davi Rocha,davi@exemplo.test,(41) 90000-0004,Curitiba,2025-01-18,sim
+C05,Elisa Prado,elisa@exemplo.test,(51) 90000-0005,Porto Alegre,2025-08-02,sim
+C06,Felipe Alves,felipe@exemplo.test,(11) 90000-0006,Campinas,2026-02-14,sim
+C07,Gabi Nunes,gabi@exemplo.test,(71) 90000-0007,Salvador,2025-09-30,sim
+C08,Heitor Dias,heitor@exemplo.test,(61) 90000-0008,Brasília,2024-07-12,sim
+C09,Iara Costa,iara@exemplo.test,(81) 90000-0009,Recife,2025-04-25,nao
+C10,João Pires,joao@exemplo.test,(85) 90000-0010,Fortaleza,2026-05-03,sim
+C11,Lia Martins,lia@exemplo.test,(11) 90000-0011,São Paulo,2026-10-01,sim
+C12,Marcos Teles,marcos@exemplo.test,(19) 90000-0012,Sorocaba,2026-10-20,sim

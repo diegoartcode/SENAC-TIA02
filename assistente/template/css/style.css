@@ -1,0 +1,64 @@
+   /* comentario css */
+   body {
+       background: #f1eee4;
+       font-family: Arial, Helvetica, sans-serif;
+       display: flex;
+       justify-content: center;
+   }
+
+   #chat {
+       width: 360px;
+       margin-top: 30px;
+       background: #fff;
+       border-radius: 10px;
+       overflow: hidden;
+   }
+
+   header {
+       background: #1b2430;
+       color: #fff;
+       padding: 14px;
+   }
+
+   #mensagens {
+       height: 380px;
+       overflow-y: auto;
+       padding: 12px;
+   }
+
+   .bot,
+   .cliente {
+       padding: 8px 12px;
+       border-radius: 12px;
+       margin: 6px 0;
+       max-width: 80%;
+   }
+
+   .bot {
+       background: #e9e4d6;
+   }
+
+   .cliente {
+       background: #1f8a70;
+       color: #fff;
+       margin-left: auto;
+   }
+
+   form {
+       display: flex;
+       border-top: 1px solid #ddd;
+   }
+
+   input {
+       flex: 1;
+       border: 0;
+       padding: 12px;
+       font-size: 15px;
+   }
+
+   button {
+       border: 0;
+       background: #1f8a70;
+       color: #fff;
+       padding: 0 16px;
+   }

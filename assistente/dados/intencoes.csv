@@ -1,0 +1,85 @@
+frase,intencao
+oi,saudacao
+"olá, tudo bem?",saudacao
+bom dia,saudacao
+"boa tarde, preciso de ajuda",saudacao
+e aí,saudacao
+boa noite,saudacao
+"oi, alguém aí?",saudacao
+"olá, quero atendimento",saudacao
+"oi, bom dia!",saudacao
+olá,saudacao
+boa tarde,saudacao
+"oi, tudo certo?",saudacao
+me indica um mouse,recomendar
+quero uma sugestão de presente,recomendar
+qual teclado vocês recomendam,recomendar
+procuro um headset para home office,recomendar
+me recomenda algo para jogar,recomendar
+o que combina com meu monitor,recomendar
+quero melhorar meu computador,recomendar
+sugere um produto até 300 reais,recomendar
+qual produto você indica para mim,recomendar
+me sugere um presente gamer,recomendar
+recomenda uma webcam boa,recomendar
+o que vocês indicam para escritório,recomendar
+onde está meu pedido,status_pedido
+meu pedido 1002 já saiu?,status_pedido
+quero rastrear minha compra,status_pedido
+qual a previsão de entrega do pedido,status_pedido
+status do pedido 1006,status_pedido
+minha encomenda não chegou,status_pedido
+já enviaram meu pedido?,status_pedido
+acompanhar entrega,status_pedido
+meu pedido está atrasado,status_pedido
+quando chega meu pedido,status_pedido
+rastrear pedido 1003,status_pedido
+situação da minha entrega,status_pedido
+quero trocar um produto,troca_devolucao
+como faço para devolver,troca_devolucao
+o mouse veio com defeito,troca_devolucao
+preciso devolver o teclado,troca_devolucao
+posso trocar por outro modelo,troca_devolucao
+produto chegou quebrado,troca_devolucao
+quero meu dinheiro de volta,troca_devolucao
+política de troca,troca_devolucao
+quero fazer uma devolução,troca_devolucao
+"o produto veio com defeito, quero trocar",troca_devolucao
+como trocar um item,troca_devolucao
+devolver produto,troca_devolucao
+que horas vocês atendem,horario
+qual o horário de atendimento,horario
+vocês abrem sábado?,horario
+até que horas funciona o atendimento,horario
+atendem domingo?,horario
+horário da loja,horario
+o atendimento funciona à noite?,horario
+quando posso falar com vocês,horario
+qual o horário do suporte,horario
+vocês atendem feriado?,horario
+horário de funcionamento,horario
+abre que horas,horario
+quero falar com um atendente,falar_humano
+me passa para uma pessoa,falar_humano
+atendente humano por favor,falar_humano
+não quero falar com robô,falar_humano
+chama alguém de verdade,falar_humano
+preciso de um humano,falar_humano
+transferir para atendente,falar_humano
+falar com o suporte humano,falar_humano
+quero uma pessoa real,falar_humano
+me transfere para um atendente,falar_humano
+falar com humano,falar_humano
+tem algum atendente aí?,falar_humano
+tchau,despedida
+"obrigado, era só isso",despedida
+valeu,despedida
+até mais,despedida
+pode encerrar,despedida
+obrigada pela ajuda,despedida
+falou,despedida
+encerrar atendimento,despedida
+"tchau, obrigado",despedida
+era só isso mesmo,despedida
+até logo,despedida
+"valeu, tchau",despedida
